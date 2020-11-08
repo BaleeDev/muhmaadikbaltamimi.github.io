@@ -1,0 +1,46 @@
+body {
+    position: relative;
+}
+
+main {
+    /* background-image: linear-gradient(to right, #16a085, #17a3a3); */
+    background-image: url('../img/bg2.jpg');
+    height: 610px;
+}
+
+main h2,
+main p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.navbar {
+    box-shadow: 2px 2px 2px rgba(9, 83, 83, 0.8);
+}
+
+footer {
+    /* background-color: #16a085; */
+    background-image: linear-gradient(to right, #16a085, #17a3a3);
+    box-shadow: -1px -0px 2px rgba(0, 0, 0, 0.4);
+}
+
+section {
+    min-height: 600px;
+}
+
+.jumbotron {
+    height: 450px;
+    background-image: url('../img/wlp2.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0-100px;
+    color: rgb(255, 254, 254);
+}
+
+.jumbotron img {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
